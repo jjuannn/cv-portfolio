@@ -1,0 +1,28 @@
+.header {
+  grid-area: header;
+}
+.page-name {
+  font-size: 2em;
+}
+.nav-text {
+  color: inherit;
+}
+.list-item {
+  margin: 5px 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: white;
+  padding: 2% 15%;
+}

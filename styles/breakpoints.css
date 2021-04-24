@@ -1,0 +1,44 @@
+@media screen and (min-width: 715px) {
+  .nav-container {
+    flex-direction: row !important;
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: row !important;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end !important;
+  }
+  .list-item {
+    margin: 0px 15px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-title {
+    font-size: 5rem;
+    margin: 20px;
+    position: relative;
+    right: 60px;
+  }
+  .about {
+    padding: 10% 10%;
+  }
+  .about-text {
+    font-size: 1em;
+  }
+  .projects {
+    padding: 50px;
+  }
+
+  .contact-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

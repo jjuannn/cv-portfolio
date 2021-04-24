@@ -1,0 +1,44 @@
+.main {
+  grid-area: main;
+}
+.content-title {
+  text-align: center;
+  color: white;
+  margin: 10px;
+  height: fit-content;
+  font-size: 3rem;
+}
+
+.about-text {
+  color: white;
+  line-height: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  margin: 20px;
+}
+.about-title {
+  text-align: center;
+  margin: 30px;
+  color: white;
+  font-size: 2rem;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-item {
+  margin: 10px;
+  color: white;
+}
